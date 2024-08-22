@@ -1,0 +1,100 @@
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.19.1
+[INFO] Built: Jun  5 2024
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[ERROR] Couldn't find any cloud sync driver named ""
+[INFO] Available cloud sync drivers are:
+[INFO] 	webdav
+[INFO] 	null
+[WARN] Going to default to first cloud sync driver...
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/mmc/MUOS/core/gpsp_libretro.so"
+[INFO] [Overrides]: Core-specific overrides found at "/mnt/mmc/MUOS/info/config/gpSP/gpSP.cfg".
+[INFO] [Config]: Loading config: "/mnt/mmc/MUOS/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/mnt/mmc/MUOS/info/config/gpSP/gpSP.cfg".
+[INFO] [Overrides]: Redirecting save file to "/mnt/mmc/MUOS/save/file/gpSP/Metroid - Zero Mission (U) [!].srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/mmc/MUOS/save/state/gpSP/Metroid - Zero Mission (U) [!].state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_PERF_INTERFACE.
+[INFO] [Environ]: GET_VFS_INTERFACE. Core requested version >= V2, providing V3.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "0".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_INTL.
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_NETPACKET_INTERFACE.
+[INFO] [Overrides]: Redirecting save file to "/mnt/mmc/MUOS/save/file/gpSP/Metroid - Zero Mission (U) [!].srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/mmc/MUOS/save/state/gpSP/Metroid - Zero Mission (U) [!].state".
+[INFO] [Content]: Core requires uncompressed content - extracting archive to temporary directory.
+[INFO] [Content]: Content successfully extracted to: "/mnt/mmc/roms/GBA/Metroid - Zero Mission (U) [!].gba".
+[INFO] [Content]: Content loading skipped. Implementation will load it on its own.
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/mmc/MUOS/bios".
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: SET_MEMORY_MAPS.
+[INFO] [State]: found_last_state_slot: #0
+[INFO] [SRAM]: Skipping SRAM load.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 240x160, Aspect: 1.500, FPS: 59.73, Sample rate: 65536.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 65835.00 Hz.
+[INFO] [Video]: Set video size to: 640x480.
+[INFO] [Video]: Starting threaded video driver..
+[INFO] [SDL_GL] SDL 2.28.5 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G31.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.r20p0-01rel0.8ec337de4ddab3365a32cff58063a9da.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/mmc/MUOS/info/config/global.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "axp2202-pek" (/dev/input/event0).
+[INFO] [udev]: Keyboard #1: "Deeplay-keys" (/dev/input/event1).
+[INFO] [udev]: Keyboard #2: "dierct-keys-polled" (/dev/input/event2).
+[INFO] [udev]: Keyboard #3: "" (/dev/input/js0).
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 2 periods per buffer (1411 frames, 11288 bytes)
+[INFO] [ALSA]: Buffer size: 2822 frames (22576 bytes)
+[INFO] [ALSA]: Can pause: yes.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [NetCMD]: bringing_up_command_interface_at_port 55355.
+[INFO] Initializing rewind buffer with size: 20 MB
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[INFO] [State]: Saving state "/mnt/mmc/MUOS/save/state/gpSP/Metroid - Zero Mission (U) [!].state1", 426008 bytes.
+[INFO] [State]: Saving state "/mnt/mmc/MUOS/save/state/gpSP/Metroid - Zero Mission (U) [!].state2", 426008 bytes.
+[INFO] Auto save state to "/mnt/mmc/MUOS/save/state/gpSP/Metroid - Zero Mission (U) [!].state.auto" succeeded.
+[INFO] [Config]: Loading config: "/mnt/mmc/MUOS/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [SRAM]: Saving RAM type #0 to "/mnt/mmc/MUOS/save/file/gpSP/Metroid - Zero Mission (U) [!].srm".
+[INFO] [SRAM]: Saved successfully to "/mnt/mmc/MUOS/save/file/gpSP/Metroid - Zero Mission (U) [!].srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 07 minutes, 13 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/mnt/mmc/MUOS/info/config/gpSP/gpSP.opt".
+[INFO] Threaded video stats: Frames pushed: 25513, Frames dropped: 320.
+[INFO] [Content]: Removing temporary content file: "/mnt/mmc/roms/GBA/Metroid - Zero Mission (U) [!].gba".

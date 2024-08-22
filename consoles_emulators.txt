@@ -1,0 +1,33 @@
+# retroarch_core, console_name
+# add your emulators and consoles here
+gpsp,Game Boy Advance
+pcsx_rearmed,PlayStation
+snes9x,Super Nintendo Entertainment System (SNES)
+fceumm,Nintendo Entertainment System (NES)
+genesis_plus_gx,Sega Genesis/Mega Drive
+mgba,Game Boy Advance
+gambatte,Game Boy/Game Boy Color
+mednafen_psx,PlayStation
+mednafen_pce_fast,PC Engine/TurboGrafx-16
+mednafen_saturn,Sega Saturn
+mednafen_ngp,Neo Geo Pocket/Neo Geo Pocket Color
+mednafen_gba,Game Boy Advance
+mednafen_snes,SNES
+mupen64plus, Nintendo 64
+mame,Arcade (MAME)
+fbneo,Arcade (FinalBurn Neo)
+beetle_psx_hw,PlayStation (Beetle HW)
+beetle_saturn,Sega Saturn
+prboom,Doom
+px68k,Sharp X68000
+yabause,Sega Saturn
+desmume,Nintendo DS
+ppsspp,PlayStation Portable
+reicast,Dreamcast
+flycast,Dreamcast/Naomi/Atomiswave
+dolphin,GameCube/Wii
+melonDS,Nintendo DS
+bsnes,SNES (bsnes)
+dosbox,DOS
+vice,C64 (Commodore 64)
+nxengine,Cave Story (NXEngine)

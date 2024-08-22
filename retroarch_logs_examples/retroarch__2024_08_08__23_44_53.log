@@ -1,0 +1,744 @@
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.19.1
+[INFO] Built: Jun  5 2024
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[ERROR] Couldn't find any cloud sync driver named ""
+[INFO] Available cloud sync drivers are:
+[INFO] 	webdav
+[INFO] 	null
+[WARN] Going to default to first cloud sync driver...
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/mmc/MUOS/core/mame2010_libretro.so"
+[INFO] [Overrides]: Redirecting save file to "/mnt/mmc/MUOS/save/file/MAME 2010/ddsomu.srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/mmc/MUOS/save/state/MAME 2010/ddsomu.state".
+[INFO] [Environ]: SET_VARIABLES.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/mmc/MUOS/bios".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/MAME 2010".
+[libretro INFO] [MAME 2010] mame.ini not found at: /mnt/mmc/MUOS/save/file/MAME 2010/mame2010/ini/mame.ini
+[libretro INFO] [MAME 2010] new mame.ini generated at: /mnt/mmc/MUOS/save/file/MAME 2010/mame2010/ini/mame.ini
+[INFO] [Content]: Content loading skipped. Implementation will load it on its own.
+[libretro INFO] [MAME 2010] libretro_content_directory: /mnt/mmc/ROMS/ARCADE/
+[libretro INFO] [MAME 2010] libretro_system_directory: /mnt/mmc/MUOS/bios/mame2010
+[libretro INFO] [MAME 2010] libretro_save directory: /mnt/mmc/MUOS/save/file/MAME 2010/mame2010
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [MAME 2010] mouse_mode value: mouse
+[libretro INFO] [MAME 2010] skip_nagscreen value: enabled
+[libretro INFO] [MAME 2010] skip_gameinfo value: disabled
+[libretro INFO] [MAME 2010] skip_warnings value: disabled
+[libretro INFO] [MAME 2010] videoapproach1_enable value: disabled
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[libretro INFO] [MAME 2010] path=/mnt/mmc/ROMS/ARCADE/ddsomu.zip gamePath=/mnt/mmc/ROMS/ARCADE gameName=ddsomu
+[libretro INFO] [MAME 2010] ddsomu            "Dungeons & Dragons: Shadow over Mystara (USA 960619)" rot=0 
+[libretro INFO] [MAME 2010] Creating frontend... game=ddsomu
+[libretro INFO] [MAME 2010] Invoking MAME2010 CLI frontend. Parameter count: 17
+[libretro INFO] [MAME 2010] Parameter list: ddsomu 
+[libretro INFO] [MAME 2010] osd_init starting
+[libretro INFO] [MAME 2010] SOURCE FILE: src/mame/drivers/cps2.c
+[libretro INFO] [MAME 2010] PARENT: ddsom
+[libretro INFO] [MAME 2010] NAME: ddsomu
+[libretro INFO] [MAME 2010] DESCRIPTION: Dungeons & Dragons: Shadow over Mystara (USA 960619)
+[libretro INFO] [MAME 2010] YEAR: 1996
+[libretro INFO] [MAME 2010] MANUFACTURER: Capcom
+[libretro INFO] [MAME 2010] Machine screen orientation: HORIZONTAL 
+[libretro INFO] [MAME 2010] Rotation:0
+[libretro INFO] [MAME 2010] osd_init done
+[libretro INFO] [MAME 2010] game screen w=384 h=224  rowPixels=384
+[libretro INFO] [MAME 2010] Rotation:0
+[libretro INFO] [MAME 2010] Searching for ddsomu in internal hiscore data.
+[libretro INFO] [MAME 2010] hiscore configuration found for ddsomu
+[libretro INFO] [MAME 2010] Soft reset now.
+[INFO] [State]: found_last_state_slot: #0
+[INFO] [SRAM]: Skipping SRAM load.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 384x224, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [Video]: Set video size to: 640x480.
+[INFO] [Video]: Starting threaded video driver..
+[INFO] [SDL_GL] SDL 2.28.5 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G31.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.r20p0-01rel0.8ec337de4ddab3365a32cff58063a9da.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/mmc/MUOS/info/config/global.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "axp2202-pek" (/dev/input/event0).
+[INFO] [udev]: Keyboard #1: "Deeplay-keys" (/dev/input/event1).
+[INFO] [udev]: Keyboard #2: "dierct-keys-polled" (/dev/input/event2).
+[INFO] [udev]: Keyboard #3: "" (/dev/input/js0).
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 2 periods per buffer (1411 frames, 11288 bytes)
+[INFO] [ALSA]: Buffer size: 2822 frames (22576 bytes)
+[INFO] [ALSA]: Can pause: yes.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [NetCMD]: bringing_up_command_interface_at_port 55355.
+[ERROR] Rewind unavailable because this core lacks serialized save state support.
+[INFO] [Environ]: SET_GEOMETRY.
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 00
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 01
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 02
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 03
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 04
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 05
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 06
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 07
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 08
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 09
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0a
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0b
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0c
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0d
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0e
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 0f
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 10
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 11
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 12
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 13
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 14
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 15
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 16
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 17
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 18
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 19
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1a
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1b
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1c
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1d
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1e
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 1f
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 20
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 21
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 22
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 23
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 24
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 25
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 26
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 27
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 28
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 29
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2a
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2b
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2c
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2d
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2e
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 2f
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 30
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 31
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 32
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 33
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 34
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 35
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 36
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 37
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 38
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 39
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3a
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3b
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3c
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3d
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3e
+[libretro INFO] [MAME 2010] EEPROM read ffff from address 3f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0100110000
+[libretro INFO] [MAME 2010] EEPROM erase address 00
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 00
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 01
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0100 to address 01
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 02
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0101 to address 02
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 03
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0002 to address 03
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 04
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 04
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 05
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 05
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 06
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 06
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 07
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 07
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 08
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0303 to address 08
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 09
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 09
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 0f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 0f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 10
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 9602 to address 10
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 11
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0102 to address 11
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 12
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 12
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 13
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 13
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 14
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 4426 to address 14
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 15
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 4432 to address 15
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 16
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 2055 to address 16
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 17
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 5341 to address 17
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 18
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 18
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 19
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0100 to address 19
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 1a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0101 to address 1a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 1b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0002 to address 1b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 1c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 1c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 1d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 1d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 1e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 1e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 1f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 1f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 20
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0303 to address 20
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 21
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 21
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 22
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 22
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 23
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 23
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 24
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 24
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 25
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 25
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 26
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 26
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 27
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 27
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 28
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 9602 to address 28
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 29
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0102 to address 29
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 2a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 2a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 2b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 2b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 2c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 4426 to address 2c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 2d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 4432 to address 2d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 2e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 2055 to address 2e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 2f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 5341 to address 2f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM erase address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 32
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 32
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 33
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 33
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 34
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 34
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 35
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 35
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 36
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 36
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 37
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 37
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 38
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 38
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 39
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 39
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3a
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3b
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3c
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3d
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3e
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 3f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 3f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 00
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 01
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 02
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 03
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 04
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 05
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 06
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 07
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 08
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 09
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0f
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 10
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 11
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 12
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 13
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 14
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 15
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 16
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 17
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 18
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 19
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 1a
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 1b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1f
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 20
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 21
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 22
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 23
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 24
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 25
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 26
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 27
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 28
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 29
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2b
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 2c
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 2d
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 2e
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 2f
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 31
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 32
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 33
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 34
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 35
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 36
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 37
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 38
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 39
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3f
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 00
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 01
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 02
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 03
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 04
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 05
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 06
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 07
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 08
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 09
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0f
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 10
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 11
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 12
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 13
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 14
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 15
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 16
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 17
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 18
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 19
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 1a
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 1b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1f
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 20
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 21
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 22
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 23
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 24
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 25
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 26
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 27
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 28
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 29
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2b
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 2c
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 2d
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 2e
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 2f
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 31
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 32
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 33
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 34
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 35
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 36
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 37
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 38
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 39
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3f
+[libretro INFO] [MAME 2010] attempting to load hiscore data from: ,7p
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 00
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 01
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 02
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 03
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 04
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 05
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 06
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 07
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 08
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 09
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 0f
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 10
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 11
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 12
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 13
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 14
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 15
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 16
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 17
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 18
+[libretro INFO] [MAME 2010] EEPROM read 0100 from address 19
+[libretro INFO] [MAME 2010] EEPROM read 0101 from address 1a
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 1b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 1f
+[libretro INFO] [MAME 2010] EEPROM read 0303 from address 20
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 21
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 22
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 23
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 24
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 25
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 26
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 27
+[libretro INFO] [MAME 2010] EEPROM read 9602 from address 28
+[libretro INFO] [MAME 2010] EEPROM read 0102 from address 29
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 2b
+[libretro INFO] [MAME 2010] EEPROM read 4426 from address 2c
+[libretro INFO] [MAME 2010] EEPROM read 4432 from address 2d
+[libretro INFO] [MAME 2010] EEPROM read 2055 from address 2e
+[libretro INFO] [MAME 2010] EEPROM read 5341 from address 2f
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 31
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 32
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 33
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 34
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 35
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 36
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 37
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 38
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 39
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3a
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3b
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3c
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3d
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3e
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 3f
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0100110000
+[libretro INFO] [MAME 2010] EEPROM erase address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0001 to address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0001 from address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0100110000
+[libretro INFO] [MAME 2010] EEPROM erase address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0002 to address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0002 from address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0100110000
+[libretro INFO] [MAME 2010] EEPROM erase address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0003 to address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0003 from address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0100110000
+[libretro INFO] [MAME 2010] EEPROM erase address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM write 0000 to address 30
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM erase address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 1
+[libretro INFO] [MAME 2010] EEPROM write 0004 to address 31
+[libretro INFO] [MAME 2010] EEPROM reset, buffer = 0
+[libretro INFO] [MAME 2010] EEPROM read 0000 from address 30
+[libretro INFO] [MAME 2010] EEPROM read 0004 from address 31
+[INFO] [Core]: Content ran for a total of: 00 hours, 02 minutes, 01 seconds.
+[INFO] [Core]: Unloading game..
+[libretro INFO] [MAME 2010] Retro unload_game
+[INFO] [Core]: Unloading core..
+[libretro INFO] beginning retro_machineexit()
+[libretro INFO] [MAME 2010] attempting to save hiscore hiscore datafile: ,7p
+[libretro INFO] [MAME 2010] saving hiscore datafile.
+[libretro INFO] [MAME 2010] osd_exit called 
+[libretro INFO] [MAME 2010] retro_deinit called
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/mnt/mmc/MUOS/info/config/MAME 2010/MAME 2010.opt".
+[INFO] Threaded video stats: Frames pushed: 7260, Frames dropped: 30.

@@ -1,0 +1,262 @@
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.19.1
+[INFO] Built: Jun  5 2024
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[ERROR] Couldn't find any cloud sync driver named ""
+[INFO] Available cloud sync drivers are:
+[INFO] 	webdav
+[INFO] 	null
+[WARN] Going to default to first cloud sync driver...
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [Video]: Set video size to: 640x480.
+[INFO] [Video]: Starting threaded video driver..
+[INFO] [SDL_GL] SDL 2.28.5 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G31.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.r20p0-01rel0.8ec337de4ddab3365a32cff58063a9da.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "axp2202-pek" (/dev/input/event0).
+[INFO] [udev]: Keyboard #1: "Deeplay-keys" (/dev/input/event1).
+[INFO] [udev]: Keyboard #2: "dierct-keys-polled" (/dev/input/event2).
+[INFO] [udev]: Keyboard #3: "" (/dev/input/js0).
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 2 periods per buffer (1411 frames, 11288 bytes)
+[INFO] [ALSA]: Buffer size: 2822 frames (22576 bytes)
+[INFO] [ALSA]: Can pause: yes.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [NetCMD]: bringing_up_command_interface_at_port 55355.
+[INFO] [Content]: Updating firmware status for: "/mnt/mmc/MUOS/core/swanstation_libretro.so" on "/mnt/mmc/MUOS/bios".
+[INFO] [Core]: Using content: "/mnt/mmc/ROMS/PS/Crash Bandicoot (USA).chd".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] Threaded video stats: Frames pushed: 2986, Frames dropped: 0.
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.19.1
+[INFO] Built: Jun  5 2024
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[ERROR] Couldn't find any cloud sync driver named ""
+[INFO] Available cloud sync drivers are:
+[INFO] 	webdav
+[INFO] 	null
+[WARN] Going to default to first cloud sync driver...
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/mmc/MUOS/core/swanstation_libretro.so"
+[INFO] [Overrides]: Redirecting save file to "/mnt/mmc/MUOS/save/file/SwanStation/Crash Bandicoot (USA).srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/mmc/MUOS/save/state/SwanStation/Crash Bandicoot (USA).state".
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "0".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Content]: Content loading skipped. Implementation will load it on its own.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] [System] Loading CD image '/mnt/mmc/ROMS/PS/Crash Bandicoot (USA).chd'...
+[libretro INFO] [System] Auto-detected console NTSC-U region for '/mnt/mmc/ROMS/PS/Crash Bandicoot (USA).chd' (region NTSC-U)
+[libretro INFO] [System] Console Region: NTSC-U/C (US, Canada)
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/mmc/MUOS/bios".
+[libretro INFO] [HostInterface] Searching for a NTSC-U/C (US, Canada) BIOS in '/mnt/mmc/MUOS/bios'...
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'prboom.wad': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ecwolf.pk3': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'capsimg.so': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '32X_G_BIOS.BIN': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '32X_M_BIOS.BIN': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '32X_S_BIOS.BIN': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '5200.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '5200a.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '7800 BIOS (E).rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping '7800 BIOS (U).rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'amiga-ext-130-cdtv.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'amiga-os-120.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'amiga-os-130.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ARAB1.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ARABIC.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'areplay.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'asia-s3.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ATARIBAS.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ATARIOSA.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ATARIOSB.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'ATARIXL.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'awbios.zip': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bas10.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bas12.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bas13.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'BEERIDE.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios.gg': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios.min': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_CD_E.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_CD_J.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_CD_U.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_E.sms': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_J.sms': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_MD.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios_U.sms': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios7.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bios9.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bluemsx.ini': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bluemsx_history.ini': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'BS-X.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'bsxbios.smc': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'c52.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'cards.zip': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'CARTS.SHA': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'CDTV Extended-ROM v1.0 (1991)(Commodore)(CDTV)[!].rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'cgb_boot.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'cgrom.dat': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'cx4.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'cx4.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'CYRILLIC.FNT': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd32.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd32V31.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd64rom1V31.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd64rom2V31.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd64tano.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'd64tano2.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dc_bios.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dc_boot.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dc_flash.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dc_flash.bin.bak': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dc_nvmem.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'DISK.ROM': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'disk10.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'disk11.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'disk12a.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'disksys.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dmg_boot.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'DOSBox.rmp': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dplus49b.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dplus50.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'drastic_bios_arm7.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'drastic_bios_arm9.bin': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1.program.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1b.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1b.program.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp1b.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp2.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp2.program.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp2.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp3.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp3.program.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp3.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp4.data.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp4.program.rom': incorrect size
+[libretro WARN] [FindBIOSImageInDirectory] Skipping 'dsp4.rom': incorrect size
+[libretro INFO] [HostInterface] Using BIOS 'Dtlh3000.bin': SCPH-1001, 5003, DTL-H1201, H3001 (v2.2 12-04-95 A)
+[libretro INFO] [Common::MemoryArena] File mapping name: swanstation_3540_0x7f88bc5370
+[libretro INFO] [CDROMAsyncReader] Read thread started with readahead of 8 sectors
+[INFO] [State]: found_last_state_slot: #0
+[INFO] [SRAM]: Skipping SRAM load.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 256x239, Aspect: 1.333, FPS: 59.82, Sample rate: 44100.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 44234.67 Hz.
+[INFO] [Video]: Set video size to: 640x480.
+[INFO] [Video]: Starting threaded video driver..
+[INFO] [SDL_GL] SDL 2.28.5 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G31.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.r20p0-01rel0.8ec337de4ddab3365a32cff58063a9da.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/mmc/MUOS/info/config/global.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "axp2202-pek" (/dev/input/event0).
+[INFO] [udev]: Keyboard #1: "Deeplay-keys" (/dev/input/event1).
+[INFO] [udev]: Keyboard #2: "dierct-keys-polled" (/dev/input/event2).
+[INFO] [udev]: Keyboard #3: "" (/dev/input/js0).
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 2 periods per buffer (1411 frames, 11288 bytes)
+[INFO] [ALSA]: Buffer size: 2822 frames (22576 bytes)
+[INFO] [ALSA]: Can pause: yes.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [NetCMD]: bringing_up_command_interface_at_port 55355.
+[INFO] Initializing rewind buffer with size: 20 MB
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[INFO] [Environ]: SAVE_DIRECTORY: "/mnt/mmc/MUOS/save/file/SwanStation".
+[libretro INFO] [MemoryCard] Writing memory card sector 63
+[INFO] Auto save state to "/mnt/mmc/MUOS/save/state/SwanStation/Crash Bandicoot (USA).state.auto" succeeded.
+[INFO] [SRAM]: Saving RAM type #0 to "/mnt/mmc/MUOS/save/file/SwanStation/Crash Bandicoot (USA).srm".
+[INFO] [SRAM]: Saved successfully to "/mnt/mmc/MUOS/save/file/SwanStation/Crash Bandicoot (USA).srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 14 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/mnt/mmc/MUOS/info/config/SwanStation/SwanStation.opt".
+[INFO] Threaded video stats: Frames pushed: 855, Frames dropped: 20.

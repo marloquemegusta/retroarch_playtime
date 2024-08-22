@@ -1,0 +1,135 @@
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.19.1
+[INFO] Built: Jun  5 2024
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[ERROR] Couldn't find any cloud sync driver named ""
+[INFO] Available cloud sync drivers are:
+[INFO] 	webdav
+[INFO] 	null
+[WARN] Going to default to first cloud sync driver...
+[INFO] [Core]: Loading dynamic libretro core from: "/mnt/mmc/MUOS/core/pcsx_rearmed_libretro.so"
+[INFO] [Overrides]: Content dir-specific overrides found at "/mnt/mmc/MUOS/info/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Config]: Loading config: "/mnt/mmc/MUOS/retroarch/retroarch.cfg".
+[INFO] [Config]: Appending override config: "/mnt/mmc/MUOS/info/config/PCSX-ReARMed/PS.cfg".
+[INFO] [Overrides]: Redirecting save file to "/mnt/mmc/MUOS/save/file/PCSX-ReARMed/Silent Hill (USA).srm".
+[INFO] [Overrides]: Redirecting save state to "/mnt/mmc/MUOS/save/state/PCSX-ReARMed/Silent Hill (USA).state".
+[INFO] [Environ]: GET_LOG_INTERFACE.
+[INFO] [Environ]: SET_CONTROLLER_INFO.
+[INFO] [Environ]: GET_CORE_OPTIONS_VERSION.
+[INFO] [Environ]: GET_LANGUAGE: "0".
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2_INTL.
+[INFO] [Environ]: GET_MESSAGE_INTERFACE_VERSION.
+[libretro INFO] Memcard 2: disabled
+[libretro INFO] Starting PCSX-ReARMed  (cc 12.3.0 64bit pic arm64v8 neon ari64 gpu=neon)
+[libretro INFO] Init new dynarec, ndrc size 1001000, pgsize 4096
+[libretro INFO] ndrc config: mul=175, ha=0, pex=0
+[libretro INFO] (0x7f981a3310) testing if we can run recompiled code @0x7f98777000...
+[libretro INFO] test passed.
+[libretro INFO] Mapped (RAM/scrp/ROM/LUTs/TC):
+[libretro INFO] 0x80000000/0x1f800000/0x1fc00000/(nil)/0x7f98777000
+[INFO] [Environ]: SYSTEM_DIRECTORY: "/mnt/mmc/MUOS/bios".
+[libretro INFO] found BIOS file: PSXONPSP660.bin
+[INFO] [Environ]: GET_CAN_DUPE: true
+[INFO] [Environ]: GET_DISK_CONTROL_INTERFACE_VERSION.
+[INFO] [Environ]: SET_DISK_CONTROL_EXT_INTERFACE.
+[INFO] [Environ]: GET_RUMBLE_INTERFACE.
+[INFO] [Environ]: PERFORMANCE_LEVEL: 6.
+[INFO] [Content]: Content loading skipped. Implementation will load it on its own.
+[INFO] [Environ]: SET_INPUT_DESCRIPTORS:
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[libretro INFO] RGB565 supported, using it
+[libretro INFO] plugin: plugins/builtin_gpu
+[libretro INFO] plugin: plugins/builtin_spu
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] plugin: plugins/builtin_pad
+[libretro INFO] Plugins loaded.
+[libretro INFO] chd: TRACK:1 TYPE:MODE2_RAW SUBTYPE:NONE FRAMES:262115 PREGAP:0 PGTYPE:MODE1 PGSUB:NONE POSTGAP:0
+[libretro INFO] Loaded CD Image: /mnt/mmc/ROMS/PS/Silent Hill (USA).chd[+chd].
+[libretro INFO] Track 01 (DATA) - Start 00:02:00, Length 58:14:65
+[libretro INFO] CD-ROM Label: SLUS00707                       
+[libretro INFO] CD-ROM ID: SLUS00707
+[libretro INFO] CD-ROM EXE Name: SLUS_007.07;1
+[libretro INFO] BIOS: 19951204, 'CEX-3000/1001/1002 by K.S.', 'J'
+[INFO] [Environ]: SET_AUDIO_BUFFER_STATUS_CALLBACK.
+[INFO] [State]: found_last_state_slot: #0
+[INFO] [SRAM]: Skipping SRAM load.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 256x240, Aspect: 1.333, FPS: 60.00, Sample rate: 44100.00 Hz.
+[INFO] [Audio]: Set audio input rate to: 44100.00 Hz.
+[INFO] [Video]: Set video size to: 640x480.
+[INFO] [Video]: Starting threaded video driver..
+[INFO] [SDL_GL] SDL 2.28.5 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 640x480.
+[INFO] [GL]: Vendor: ARM, Renderer: Mali-G31.
+[INFO] [GL]: Version: OpenGL ES 3.2 v1.r20p0-01rel0.8ec337de4ddab3365a32cff58063a9da.
+[INFO] [GL]: Using resolution 640x480.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shaders]: Specific shader preset found at "/mnt/mmc/MUOS/info/config/global.glslp".
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [udev]: Keyboard #0: "axp2202-pek" (/dev/input/event0).
+[INFO] [udev]: Keyboard #1: "Deeplay-keys" (/dev/input/event1).
+[INFO] [udev]: Keyboard #2: "dierct-keys-polled" (/dev/input/event2).
+[INFO] [udev]: Keyboard #3: "" (/dev/input/js0).
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event1) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[WARN] [udev]: Mouse grab/ungrab feature unavailable.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "default"
+[INFO] [ALSA]: Period: 2 periods per buffer (1411 frames, 11288 bytes)
+[INFO] [ALSA]: Buffer size: 2822 frames (22576 bytes)
+[INFO] [ALSA]: Can pause: yes.
+[INFO] [ALSA]: Initialized PLAYBACK device "default"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.2.11
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [NetCMD]: bringing_up_command_interface_at_port 55355.
+[INFO] Initializing rewind buffer with size: 209 MB
+[libretro INFO] port: 1  device: standard
+[libretro INFO] port: 2  device: standard
+[libretro INFO] port: 3  device: standard
+[libretro INFO] port: 4  device: standard
+[libretro INFO] port: 5  device: none
+[libretro INFO] port: 6  device: none
+[libretro INFO] port: 7  device: none
+[libretro INFO] port: 8  device: none
+[INFO] [Environ]: RETRO_ENVIRONMENT_SET_MINIMUM_AUDIO_LATENCY.
+[INFO] [Environ]: SET_GEOMETRY: 640x480, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 640x480, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x480, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x480, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x480, Aspect: 1.333.
+[INFO] [Environ]: SET_GEOMETRY: 320x240, Aspect: 1.333.
+[INFO] Auto save state to "/mnt/mmc/MUOS/save/state/PCSX-ReARMed/Silent Hill (USA).state.auto" succeeded.
+[INFO] [Config]: Loading config: "/mnt/mmc/MUOS/retroarch/retroarch.cfg".
+[INFO] [Overrides]: Configuration overrides unloaded, original configuration restored.
+[INFO] [SRAM]: Saving RAM type #0 to "/mnt/mmc/MUOS/save/file/PCSX-ReARMed/Silent Hill (USA).srm".
+[INFO] [SRAM]: Saved successfully to "/mnt/mmc/MUOS/save/file/PCSX-ReARMed/Silent Hill (USA).srm".
+[INFO] [Core]: Content ran for a total of: 00 hours, 01 minutes, 30 seconds.
+[INFO] [Core]: Unloading game..
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Core]: Saved core options file to "/mnt/mmc/MUOS/info/config/PCSX-ReARMed/PCSX-ReARMed.opt".
+[INFO] Threaded video stats: Frames pushed: 6870, Frames dropped: 85.
