@@ -11,7 +11,14 @@ To run this project, you will need to have the following Python libraries instal
 
 You can install these dependencies using `pip`:
 
+```bash
+pip install -r requirements.txt
+````
+And run the script with:
 
+```bash
+python retroarch_playtime.py your_logs_directory
+```
+![image](https://github.com/user-attachments/assets/90814a5a-dfed-4c73-9af6-a0e60a07c683)
 
-
-
+this was tested on the retroarch logs obtained from MuOS on my anbernic rg35xx sp, so it may not work on other CFW or devices
