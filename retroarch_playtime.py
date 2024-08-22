@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 from datetime import datetime, timedelta
 from tabulate import tabulate
 from colorama import Fore, Style, init
@@ -7,6 +8,15 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def load_emulator_to_console(file_path):
+    """
+    Load the emulator to console mapping from a file.
+    
+    Args:
+        file_path (str): Path to the file containing emulator to console mappings.
+    
+    Returns:
+        dict: A dictionary mapping emulators to consoles.
+    """
     emulator_to_console = {}
     with open(file_path, 'r', encoding='utf-8') as file:
         for line in file:
@@ -15,10 +25,19 @@ def load_emulator_to_console(file_path):
                 emulator_to_console[emulator] = console
     return emulator_to_console
 
-# Cargar el diccionario desde el archivo
+# Load the dictionary from the file
 emulator_to_console = load_emulator_to_console('consoles_emulators.txt')
 
 def parse_log_file(file_path):
+    """
+    Parse a RetroArch log file to extract game title, play time, console, start date, and end date.
+    
+    Args:
+        file_path (str): Path to the log file.
+    
+    Returns:
+        tuple: A tuple containing game title, play time, console, start date, and end date.
+    """
     game_title = None
     play_time = timedelta()
     console = None
@@ -53,6 +72,15 @@ def parse_log_file(file_path):
     return game_title, play_time, console, start_date, end_date
 
 def aggregate_play_times(log_folder):
+    """
+    Aggregate play times from all log files in a folder.
+    
+    Args:
+        log_folder (str): Path to the folder containing log files.
+    
+    Returns:
+        dict: A dictionary containing aggregated play times for each game.
+    """
     play_times = {}
     
     for log_file in os.listdir(log_folder):
@@ -72,6 +100,12 @@ def aggregate_play_times(log_folder):
     return play_times
 
 def print_play_times(play_times):
+    """
+    Print the aggregated play times in a formatted table.
+    
+    Args:
+        play_times (dict): A dictionary containing aggregated play times for each game.
+    """
     table_data = []
     for game_title, data in play_times.items():
         play_time = data['play_time']
@@ -88,10 +122,10 @@ def print_play_times(play_times):
                 f"{hours}h {minutes}m {seconds}s"
             ])
     
-    # Ordenar por tiempo jugado de mayor a menor
+    # Sort by play time in descending order
     table_data.sort(key=lambda x: x[4], reverse=True)
     
-    # Eliminar la columna de timedelta antes de imprimir
+    # Remove the timedelta column before printing
     table_data = [[row[0], row[1], row[2], row[3], row[5]] for row in table_data]
     
     headers = [
@@ -104,6 +138,10 @@ def print_play_times(play_times):
     print(tabulate(table_data, headers=headers, tablefmt="fancy_grid"))
 
 if __name__ == "__main__":
-    log_folder = '/workspaces/retroarch/retroarch_logs_sp'  # Cambia esto a la ruta de tu carpeta de logs
+    if len(sys.argv) != 2:
+        print("Usage: python retroarch_playtime.py <log_folder_path>")
+        sys.exit(1)
+    
+    log_folder = sys.argv[1]
     play_times = aggregate_play_times(log_folder)
     print_play_times(play_times)
